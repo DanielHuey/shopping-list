@@ -1,0 +1,65 @@
+:root {
+  --c:rgb(234,48,140);
+}
+
+.item {
+  border-style: solid;
+  border-color:var(--c);
+  border-width: 1px;
+  border-radius: 3px;
+  display: flex;
+  padding: 2px;
+  margin-top: 3px;
+}
+
+.n {
+  padding: 2px;
+  width: 70%;
+  font-family: Monospace;
+}
+
+.p {
+  width: 20%;
+  padding: 2px;
+  border-style: solid;
+  border-width: 0px;
+  border-left-width: 1px;
+  border-color:var(--c);
+  font-family: Monospace;
+}
+
+.x {
+  padding: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: var(--c);
+  font-family: Monospace;
+  float: right;
+}
+
+.t {
+  padding: 2px;
+  font-family: Monospace;
+  color: var(--c);
+}
+
+h1 {
+  color: var(--c);
+}
+
+#totalHolder {
+  float: left;
+  margin-top: 10px;
+  color: var(--c);
+  font-family: Monospace;
+}
+
+#resetBtn {
+  background-color: white;
+  float: right;
+  margin-top: 10px;
+  border:solid 1px var(--c);
+  border-radius: 2px;
+  font-family: Monospace;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/index.js"></script>
+  <title>Shopping List</title>
+</head>
+<body>
+	<h1>Shopping List</h1>
+	<div style="display:flex;margin:auto">
+	  <input style="width:70%" type="text" name="item" id="item" autofocus="true" placeholder="Item Name" oninput="validate()"/>
+	  <input style="width:20%" type="number" name="price" id="price" placeholder="Price" oninput="validate()"/>
+	  <button disabled="true" id="createItem" onclick="clicked()">+</button>
+	</div>
+	<hr />
+	<div style="display:flex">
+	  <div class="t" style="width:70%">
+	    ITEM NAME
+	  </div>
+	  <div class="t">
+	    ITEM PRICE
+	  </div>
+	</div>
+	<hr />
+	
+	<div id="listHolder"></div>
+	
+	<div id="totalHolder"></div>
+	<button id="resetBtn" onclick="resetList()">Click to Reset List</button>
+</body>
+</html>
