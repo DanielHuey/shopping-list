@@ -3,7 +3,7 @@ function validate() {
   let itemPrice = document.getElementById('price').value;
   let itemButton = document.getElementById('createItem');
   
-  if(itemName!='' && itemPrice>0){
+  if(itemName && itemPrice>0){
     itemButton.disabled=false;
   }else{
     itemButton.disabled=true;
